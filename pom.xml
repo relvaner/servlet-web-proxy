@@ -2,7 +2,7 @@
   	<modelVersion>4.0.0</modelVersion>
   	<groupId>servlet-web-proxy</groupId>
   	<artifactId>servlet-web-proxy</artifactId>
-  	<version>1.10.0</version>
+  	<version>1.11.0</version>
 
 	<name>Smiley's HTTP Proxy Servlet</name>
 	<description>An HTTP Proxy (aka gateway) in the form of a Java servlet. An
@@ -46,7 +46,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
 		<!-- works with v4.3 and forward; see .travis.yml -->
-		<httpclient.version>4.5.6</httpclient.version>
+		<httpclient.version>4.5.10</httpclient.version>
 		<!-- the last version to provide LocalTestServer.java -->
 		<httpclient.test.version>4.3.5</httpclient.test.version>
 	</properties>
@@ -71,7 +71,7 @@
 			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
-
+  
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
@@ -96,7 +96,7 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
-			<version>3.8.1</version>
+			<version>3.9</version>
 		</dependency>
 
 		<dependency>
