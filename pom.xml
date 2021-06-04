@@ -46,7 +46,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
 		<!-- works with v4.3 and forward; see .travis.yml -->
-		<httpclient.version>4.5.10</httpclient.version>
+		<httpclient.version>4.5.13</httpclient.version>
 		<!-- the last version to provide LocalTestServer.java -->
 		<httpclient.test.version>4.3.6</httpclient.test.version>
 	</properties>
